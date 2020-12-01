@@ -1,7 +1,7 @@
 <!--pages/user-message/user-message.wxml-->
 <view class="con">
     <view class="user">
-        <image class="user-head" src="http://forestj.oss-cn-beijing.aliyuncs.com/{{ info.head_link }}"></image>
+        <image class="user-head" src="https://forestj.oss-cn-beijing.aliyuncs.com/{{ info.head_link }}"></image>
         <view class="user-maessage">
             <view class="user-name">{{ info.username }}</view>
             <view class="user-sign">{{ info.user_sign }}</view>
@@ -21,7 +21,7 @@
         <view class="objs">
             <view class="post"  wx:for="{{ record }}">
                 <navigator url="../message/message?recommend_id={{ item.postId }}" >
-                <image class="post-img" mode="widthFix" src="http://forestj.oss-cn-beijing.aliyuncs.com/{{ item.coverLink }}"></image>
+                <image class="post-img" mode="widthFix" src="https://forestj.oss-cn-beijing.aliyuncs.com/{{ item.coverLink }}"></image>
                 <text class="post-title">{{ item.title }}</text>
                 </navigator>
             </view >

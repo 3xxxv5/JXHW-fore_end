@@ -27,7 +27,7 @@ Page({
     var id = 1;   //将1改为option.id
     //加载时获取用户信息
     wx.request({
-      url: 'http://106.14.209.11:11451/user/otherInfo',
+      url: 'https://www.forestj.top:11451/user/otherInfo',
       method: 'GET',
       data:{
         userId: id
@@ -49,7 +49,7 @@ Page({
     })
     //获取用户发帖历史
     wx.request({
-      url: 'http://106.14.209.11:11451/post/self',
+      url: 'https://www.forestj.top:11451/post/self',
       method: 'GET',
       data:{
         userId: id

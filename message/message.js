@@ -16,7 +16,7 @@ Page({
     var that = this;
     var id = 13;
     wx.request({
-      url: 'http://106.14.209.11:11451/post/get',
+      url: 'https://www.forestj.top:11451/post/get',
       method: 'GET',
       data: {
         postId: id

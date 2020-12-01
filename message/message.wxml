@@ -1,12 +1,12 @@
 
 <view class="con">
     <navigator url="../user-message/user-message" class="user" bindtap="userhandle">
-        <image class="user-haed" src="http://forestj.oss-cn-beijing.aliyuncs.com/{{ information.headLink }}"></image>
+        <image class="user-haed" src="https://forestj.oss-cn-beijing.aliyuncs.com/{{ information.headLink }}"></image>
         <view >{{ information.username }}</view>
     </navigator>
     <view class="obj">
         <view class="title">{{ information.title }}</view>
-        <image class="obj-img" mode="widthFix" src="http://forestj.oss-cn-beijing.aliyuncs.com/{{ information.coverLink }}"></image>
+        <image class="obj-img" mode="widthFix" src="https://forestj.oss-cn-beijing.aliyuncs.com/{{ information.coverLink }}"></image>
     </view>
     <view class="comments">
         <image class="icon" src="../../icons/collection.png"></image>
